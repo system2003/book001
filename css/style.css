@@ -8834,208 +8834,14 @@ h1, h2, h3, h4, h5,
   .services-1:hover {
     background: #17b978; }
 
-.project {
-  width: 100%;
-  height: 330px;
-  margin-bottom: 0;
-  position: relative;
-  z-index: 0;
-  margin-bottom: 30px; }
-  .project .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: '';
-    opacity: 0;
-    background: #000000;
-    z-index: -1;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
-    @media (max-width: 767.98px) {
-      .project .overlay {
-        opacity: .2; } }
-  .project .text {
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
-    .project .text h3 {
-      font-size: 24px;
-      font-weight: 700; }
-      .project .text h3 a {
-        color: #fff; }
-    .project .text span {
-      color: rgba(255, 255, 255, 0.8);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 12px;
-      font-weight: 600; }
-    @media (max-width: 767.98px) {
-      .project .text {
-        opacity: 1; }
-        .project .text span {
-          color: rgba(255, 255, 255, 0.8); } }
-  .project:hover .overlay, .project:focus .overlay {
-    opacity: .5; }
-  .project:hover .text, .project:focus .text {
-    opacity: 1; }
 
-.aside-stretch {
-  background: #20e395; }
-  .aside-stretch:after {
-    position: absolute;
-    top: 0;
-    right: 100%;
-    bottom: 0;
-    content: '';
-    width: 360%;
-    background: #20e395; }
-  @media (max-width: 767.98px) {
-    .aside-stretch {
-      background: transparent; }
-      .aside-stretch:after {
-        background: transparent;
-        display: none; } }
-
-.form-control {
-  height: 52px !important;
-  background: #fff !important;
-  color: #000000 !important;
-  font-size: 18px;
-  border-radius: 5px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-  .form-control:focus, .form-control:active {
-    border-color: #000000; }
-
-textarea.form-control {
-  height: inherit !important; }
-
-.ftco-vh-100 {
-  height: 100vh; }
-  @media (max-width: 1199.98px) {
-    .ftco-vh-100 {
-      height: inherit;
-      padding-top: 5em;
-      padding-bottom: 5em; } }
-
-.ftco-animate {
-  opacity: 0;
-  visibility: hidden; }
-
-.bg-primary {
-  background: #17b978 !important; }
-
-.about-author {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px; }
-  .about-author .desc h3 {
-    font-size: 24px; }
-
-.ftco-section {
-  padding: 7em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } }
-
-.ftco-no-pt {
-  padding-top: 0 !important; }
-
-.ftco-no-pb {
-  padding-bottom: 0 !important; }
-
-.ftco-bg-dark {
-  background: #3c312e; }
-
-.ftco-footer {
-  font-size: 16px;
-  background: #000000;
-  padding: 7em 0;
-  z-index: 0; }
-  .ftco-footer .ftco-footer-logo {
-    text-transform: uppercase;
-    letter-spacing: .1em; }
-  .ftco-footer .ftco-footer-widget h2 {
-    font-weight: normal;
-    color: #fff;
-    margin-bottom: 40px;
-    font-size: 22px;
-    font-weight: 600; }
-  .ftco-footer .ftco-footer-widget ul li {
-    margin-bottom: 10px; }
-    .ftco-footer .ftco-footer-widget ul li a {
-      color: rgba(255, 255, 255, 0.6); }
-      .ftco-footer .ftco-footer-widget ul li a span {
-        color: rgba(255, 255, 255, 0.6); }
-  .ftco-footer .ftco-footer-widget .btn-primary {
-    background: #fff !important;
-    border: 2px solid #fff !important; }
-    .ftco-footer .ftco-footer-widget .btn-primary:hover {
-      background: #fff;
-      border: 2px solid #fff !important; }
-  .ftco-footer p {
-    color: rgba(255, 255, 255, 0.7); }
-  .ftco-footer a {
-    color: rgba(255, 255, 255, 0.7); }
-    .ftco-footer a:hover {
-      color: #fff; }
-  .ftco-footer .ftco-heading-2 {
-    font-size: 17px;
-    font-weight: 400;
-    color: #000000; }
-
-.ftco-footer-social li {
-  list-style: none;
-  margin: 0 10px 0 0;
-  display: inline-block; }
-  .ftco-footer-social li a {
-    height: 40px;
-    width: 40px;
-    display: block;
-    float: left;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    position: relative; }
-    .ftco-footer-social li a span {
-      position: absolute;
-      font-size: 16px;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
-    .ftco-footer-social li a:hover {
-      color: #fff; }
-
-.footer-small-nav > li {
-  display: inline-block; }
-  .footer-small-nav > li a {
-    margin: 0 10px 10px 0; }
-    .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #17b978; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
     color: #17b978; }
 
-#map {
-  width: 100%; }
-  @media (max-width: 767.98px) {
-    #map {
-      height: 300px; } }
+
 
 .heading-section {
   position: relative; }
@@ -9348,9 +9154,9 @@ textarea.form-control {
 
 .bot{
   height: 100px;
-  width: 320px;
-  font-size: 30px;
-  justify-content: center;
+  width: 370px;
+  font-size: 20px;
+ 
   /* color:red; */
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
@@ -9359,7 +9165,22 @@ rgba(0, 0, 0, 0.12) 0px 4px 6px,
 rgba(0, 0, 0, 0.17) 0px 12px 13px, 
 rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+.bot-1{
+  font-size: 18px;
+}
+.bot-3{
+  height: 70px;
+  width: 230px;
+  font-size: 25px;
+ 
+  /* color:red; */
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 /* CSS */
 .button-56 {
